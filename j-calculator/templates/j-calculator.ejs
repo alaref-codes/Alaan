@@ -1,0 +1,396 @@
+<div class="calculator-wrapper">
+
+    <div class="languages">
+        <% for (var i = 0, language; language = oLanguages[i]; i++) { %>
+            <div class="language">
+                <label class="calc-block">
+                    <input type="radio" name="language<%= id %>" <%= i == 0 ? 'checked' : '' %>>
+                    <img src="/j-calculator/img/languages/<%= language %>-active.svg" alt="<%= language %>">
+                    <img src="/j-calculator/img/languages/<%= language %>-mute.svg" alt="<%= language %>">
+                </label>
+            </div>
+        <% } %>
+    </div>
+
+    <div class="calculator">
+        <div class="calc-block calculator-left">
+            <div class="calculator-left-top">
+                <div class="calculator-left-top-chooser">
+                    <div class="calculator-left-top-chooser-left">
+                        <input checked type="radio" name="mode<%= id %>" value="balancer" id="balancer<%= id %>">
+                        <label for="balancer<%= id %>">
+                            <%= localization.balancerTxt %>
+                            <span class="node-count">
+                                <span class="minus-node"></span>
+                                <input type="number" value="<%= cloudlets.balancer.nodes %>" max="99" name="balancer">
+                                <span class="plus-node"></span>
+                            </span>
+                        </label>
+                        <input type="radio" name="mode<%= id %>" value="appserver" id="appserver<%= id %>">
+                        <label for="appserver<%= id %>">
+                            <%= localization.AppServerTxt %>
+                            <span class="node-count">
+                                <span class="minus-node"></span>
+                                <input type="number" value="<%= cloudlets.appserver.nodes %>" max="99" name="appserver">
+                                <span class="plus-node"></span>
+                            </span>
+                        </label>
+                        <input type="radio" name="mode<%= id %>" value="database" id="database<%= id %>">
+                        <label for="database<%= id %>">
+                            <%= localization.DatabaseTxt %>
+                            <span class="node-count">
+                                <span class="minus-node"></span>
+                                <input type="number" value="<%= cloudlets.database.nodes %>" max="99" name="database">
+                                <span class="plus-node"></span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div class="calculator-left-top-scale">
+                    <div class="balancer-range">
+                        <div class="range-block min-block">
+                            <div class="cloudlets-title">
+                                <span><%= localization.ReservedTxt %></span>
+                                <div class="reserved-cloudlets">
+                                </div>
+                            </div>
+                            <div class="j-relative">
+                                <span class="tooltip-button min">i</span>
+                                <span class="tooltip-wrapper">
+                                    <span class="tooltip-inner">
+                                        <span class="title"><%= localization.ReservedCloudletsTxt %></span>
+                                        <span class="description">
+                                            <%= localization.ReservedDescriptionTxt %>
+                                        </span>
+                                        <img src="/j-calculator/img/cld-fixed-hybrid.svg" alt="Reserved Cloudlets">
+                                    </span>
+                                </span>
+                                <div class="inner">
+                                    <span class="decrease min-block-decrease"></span>
+                                    <div class="digits">
+
+                                    </div>
+                                    <span class="increase min-block-increase"></span>
+                                </div>
+                            </div>
+                            <span class="dot-line reserved">
+                                <span class="dot"></span>
+                            </span>
+                        </div>
+                        <div class="range-block max-block">
+                            <div class="cloudlets-title">
+                                <span><%= localization.ScalingLimitTxt %></span>
+                                <div class="scaling-cloudlets">
+                                </div>
+                            </div>
+                            <div class="j-relative">
+                                <span class="tooltip-button max">i</span>
+                                <span class="tooltip-wrapper max">
+                                    <span class="tooltip-inner">
+                                        <span class="title"><%= localization.ScalingLimitTxt %></span>
+                                    <span class="description">
+                                        <%= localization.ScalingDescriptionTxt %>
+                                    </span>
+                                    <img src="/j-calculator/img/cld-flex-hybrid.svg" alt="Scaling Limit">
+                                    </span>
+                                </span>
+                                <div class="inner">
+                                    <span class="decrease max-block-decrease"></span>
+                                    <div class="digits">
+
+                                    </div>
+                                    <span class="increase max-block-increase"></span>
+                                </div>
+                            </div>
+                            <span class="dot-line sl">
+                            <span class="dot"></span>
+                        </span>
+                        </div>
+                        <div class="range-wrapper">
+                            <input
+                                    data-addui='slider'
+                                    data-min='<%= localization.balancerMin %>'
+                                    data-max='<%= localization.balancerMax %>'
+                                    data-range='true'
+                                    data-step='1'
+                                    value='<%= cloudlets.balancer.reserved %>,<%= cloudlets.balancer.scaling %>'
+                            />
+                        </div>
+                    </div>
+                    <div class="appserver-range">
+                        <div class="range-block min-block">
+                            <div class="cloudlets-title">
+                                <span><%= localization.ReservedTxt %></span>
+                                <div class="reserved-cloudlets"></div>
+                            </div>
+                            <div class="j-relative">
+                                <span class="tooltip-button min">i</span>
+                                <span class="tooltip-wrapper">
+                                <span class="tooltip-inner">
+                                    <span class="title"><%= localization.ReservedCloudletsTxt %></span>
+                                    <span class="description">
+                                       <%= localization.ReservedDescriptionTxt %>
+                                    </span>
+                                    <img src="/j-calculator/img/cld-fixed-hybrid.svg" alt="Reserved Cloudlets">
+                                </span>
+                            </span>
+                                <div class="inner">
+                                    <span class="decrease min-block-decrease"></span>
+                                    <div class="digits"></div>
+                                    <span class="increase min-block-increase"></span>
+                                </div>
+                            </div>
+                            <span class="dot-line reserved">
+                                <span class="dot"></span>
+                            </span>
+                        </div>
+                        <div class="range-block max-block">
+                            <div class="cloudlets-title">
+                                <span><%= localization.ScalingLimitTxt %></span>
+                                <div class="scaling-cloudlets">
+                                </div>
+                            </div>
+                            <div class="j-relative">
+                                <span class="tooltip-button max">i</span>
+                                <span class="tooltip-wrapper max">
+                                <span class="tooltip-inner">
+                                    <span class="title"><%= localization.ScalingLimitTxt %></span>
+                                <span class="description">
+                                    <%= localization.ScalingDescriptionTxt %>
+                                </span>
+                                <img src="/j-calculator/img/cld-flex-hybrid.svg" alt="Scaling Limit">
+                                </span>
+                            </span>
+                                <div class="inner">
+                                    <span class="decrease max-block-decrease"></span>
+                                    <div class="digits"></div>
+                                    <span class="increase max-block-increase"></span>
+                                </div>
+                            </div>
+
+                            <span class="dot-line sl">
+                                <span class="dot"></span>
+                            </span>
+                        </div>
+                        <div class="range-wrapper">
+                            <input
+                                    data-addui='slider'
+                                    data-min='<%= localization.appServerMin %>'
+                                    data-max='<%= localization.appServerMax %>'
+                                    data-range='true'
+                                    data-step='1'
+                                    value='<%= cloudlets.appserver.reserved %>,<%= cloudlets.appserver.scaling %>'
+                            />
+                        </div>
+                    </div>
+                    <div class="database-range">
+                        <div class="range-block min-block">
+                            <div class="cloudlets-title">
+                                <span><%= localization.ReservedTxt %></span>
+                                <div class="reserved-cloudlets">
+                                </div>
+                            </div>
+                            <div class="j-relative">
+                                <span class="tooltip-button min">i</span>
+                                <span class="tooltip-wrapper">
+                            <span class="tooltip-inner">
+                                <span class="title"><%= localization.ReservedCloudletsTxt %></span>
+                                <span class="description">
+                                    <%= localization.ReservedDescriptionTxt %>
+                                </span>
+                                <img src="/j-calculator/img/cld-fixed-hybrid.svg" alt="Reserved Cloudlets">
+                            </span>
+                        </span>
+                                <div class="inner">
+                                    <span class="decrease min-block-decrease"></span>
+                                    <div class="digits">
+
+                                    </div>
+                                    <span class="increase min-block-increase"></span>
+                                </div>
+                            </div>
+                            <span class="dot-line reserved">
+                            <span class="dot"></span>
+                        </span>
+                        </div>
+                        <div class="range-block max-block">
+                            <div class="cloudlets-title">
+                                <span><%= localization.ScalingLimitTxt %></span>
+                                <div class="scaling-cloudlets">
+                                </div>
+                            </div>
+                            <div class="j-relative">
+                                <span class="tooltip-button max">i</span>
+                                <span class="tooltip-wrapper max">
+                            <span class="tooltip-inner">
+                                <span class="title"><%= localization.ScalingLimitTxt %></span>
+                            <span class="description">
+                                <%= localization.ScalingDescriptionTxt %>
+                            </span>
+                            <img src="/j-calculator/img/cld-flex-hybrid.svg" alt="Scaling Limit">
+                            </span>
+                        </span>
+                                <div class="inner">
+                                    <span class="decrease max-block-decrease"></span>
+                                    <div class="digits">
+
+                                    </div>
+                                    <span class="increase max-block-increase"></span>
+                                </div>
+                            </div>
+                            <span class="dot-line sl">
+                            <span class="dot"></span>
+                        </span>
+                        </div>
+                        <div class="range-wrapper">
+                            <input
+                                    data-addui='slider'
+                                    data-min='<%= localization.databaseMin %>'
+                                    data-max='<%= localization.databaseMax %>'
+                                    data-range='true'
+                                    data-step='1'
+                                    value='<%= cloudlets.database.reserved %>,<%= cloudlets.database.scaling %>'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calculator-left-bottom">
+                <div class="calculator-left-bottom-block">
+                    <p class="digit-wrapper">
+                        <span class="j-relative">
+                            <%= localization.DiskTxt %>
+                            <span class="tooltip-button">i</span>
+                            <span class="tooltip-wrapper">
+                                <span class="tooltip-inner">
+                                    <span class="title"><%= localization.DiscTooltipTxt %></span>
+                                </span>
+                            </span>
+                        </span>
+                    </p>
+                    <div class="inner">
+                        <span class="minus"></span>
+                        <label class="count">
+                            <input type="number" class="digit" value="<%= cloudlets.storage %>" name="storage"
+                                   max="99999">
+                        </label>
+                        <span class="plus"></span>
+                    </div>
+                </div>
+                <div class="calculator-left-bottom-block">
+                    <p class="digit-wrapper ip-title"><%= localization.IpTxt %></p>
+                    <div class="inner">
+                        <span class="minus"></span>
+                        <label class="count">
+                            <input type="number" class="digit" value="<%= cloudlets.ip %>" name="ip" max="99" step="1">
+                        </label>
+                        <span class="plus"></span>
+                    </div>
+                </div>
+                <div class="calculator-left-bottom-block">
+                    <p class="digit-wrapper">
+                        <span class="j-relative">
+                            <%= localization.TrafficTxt %>
+                            <span class="tooltip-button max">i</span>
+                            <span class="tooltip-wrapper max">
+                                <span class="tooltip-inner">
+                                    <span class="title"><%= localization.TrafficTooltipTxt %></span>
+                                </span>
+                            </span>
+                        </span>
+                    </p>
+                    <div class="inner">
+                        <span class="minus"></span>
+                        <label class="count">
+                            <input type="number" class="digit" value="<%= cloudlets.traffic %>" name="traffic"
+                                   max="99999">
+                        </label>
+                        <span class="plus"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="calc-block calculator-right">
+            <div class="calculator-right-top">
+                <p class="total"><%= localization.totalTxt %>:</p>
+                <div class="totals-wrapper">
+                    <div class="totals reserved-totals">
+                        <div class="totals-left">
+                            <span class="totals-title"><%= localization.ReservedTxt %></span>
+                            <span class="gibs">0</span>,&nbsp;
+                            <span class="ghz">0</span>
+                        </div>
+                        <div class="totals-right">
+                            <span class="balancer">0</span>
+                            +
+                            <span class="appserver">0</span>
+                            +
+                            <span class="database">0</span>
+                            =
+                            <span class="cloudlets-total">0</span>
+                        </div>
+                    </div>
+                    <div class="totals scaling-totals">
+                        <div class="totals-left">
+                            <span class="totals-title"><%= localization.ScalingLimitTxt %></span>
+                            <span class="gibs">0</span>,&nbsp;
+                            <span class="ghz">0</span>
+                        </div>
+                        <div class="totals-right">
+                            <span class="balancer">0</span>
+                            +
+                            <span class="appserver">0</span>
+                            +
+                            <span class="database">0</span>
+                            =
+                            <span class="cloudlets-total">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="currency-period">
+                    <div class="radio-block">
+                        <input type="radio" id="hour<%= id %>" name="price<%= id %>"
+                               value="hourly" <%= period === 'hourly' ? 'checked' : '' %>>
+                        <label for="hour<%= id %>"><%= localization.hourlyTxt %></label>
+                        <input type="radio" id="month<%= id %>" name="price<%= id %>"
+                               value="monthly" <%= period === 'monthly' ? 'checked' : '' %>>
+                        <label for="month<%= id %>"><%= localization.monthlyTxt %></label>
+                    </div>
+                    <div class="current-switcher-wrapper">
+                        <select class="current-switcher">
+                            <% for (var i = 0, currency; currency = currencies[i]; i++) {
+                                var selected = '';
+                                if (currency.code === startCurrency) {
+                                    selected = 'selected';
+                                }
+                                if (allowCurrencies) {
+                                    if  (allowCurrencies.includes(currency.code)) { %>
+                                        <option value="<%= currency.code %>" data-name="<%= currency.name %>" data-sign="<%= currency.sign %>" <%= selected %>><%= currency.code %></option>
+                                    <% }
+                                } else { %>
+                                    <option value="<%= currency.code %>" data-name="<%= currency.name %>" data-sign="<%= currency.sign %>" <%= selected %>><%= currency.code %></option>
+                                <% }
+                            } %>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="period">
+                <div class="start-price">
+                    <p><%= localization.priceMinTxt %></p>
+                    <span class="price">0</span>
+                </div>
+                <div class="max-price">
+                    <p>
+                        <%= localization.priceMaxTxt %>
+                        <span>
+                        <%= localization.priceMaxDescrTxt %>
+                    </span>
+                    </p>
+                    <span class="price">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
