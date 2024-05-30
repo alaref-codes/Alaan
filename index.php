@@ -1,4 +1,4 @@
-<?php include 'sendemail.php'; ?>
+<?php include 'sendemail.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,7 +44,7 @@
                                 <div class="de-flex-col">
                                     <!-- logo begin -->
                                     <div id="logo">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             <img class="logo-main" src="images/alaan.svg" width="242" height="98" alt="" >
                                             <img class="logo-mobile" src="images/alaan.svg" width="136" height="64" alt="" >
                                         </a>
@@ -55,7 +55,7 @@
                             <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
                                     
-                                    <li><a class="menu-item" href="index.html">Home</a></li>
+                                    <li><a class="menu-item" href="index.php">Home</a></li>
                                     
                                     <li>
                                         <a class="menu-item" href="#">Services</a>
@@ -146,16 +146,15 @@
                                                                 </a> --> 
                                                             </div>
                                                             
-                                                            
                                                         </div>
                                                     </div>
                                                 </div>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a class="menu-item" href="#">Plans & Offers</a></li>
-                                    <li><a class="menu-item" href="#">About Us</a></li>
-                                    <li><a class="menu-item" href="#">Contact</a>
+                                    <li><a class="menu-item" href="#contact">Plans & Offers</a></li>
+                                    <li><a class="menu-item" href="#about">About Us</a></li>
+                                    <li><a class="menu-item" href="#contact">Contact</a>
                                        
                                     </li>
                                     
@@ -200,7 +199,7 @@
                                 </div>
                                 <div class="col-lg-6 offset-lg-3 text-center text-white">
                                     <p class="wow fadeInUp">Experience the next level of efficiency and innovation. Our Cloud hosting environment is engineered to elevate your workloads, offering unparalleled performance, security, and scalability. Join us on the journey to a future-forward digital experience</p>
-                                    <a class="btn-main wow fadeInUp" style="margin-right: 2%;" href="#">Book  a demo</a>
+                                    <a class="btn-main wow fadeInUp" style="margin-right: 2%;" href="#contact">Book  a demo</a>
                                 <!--    <a class="btn-main wow fadeInUp" href="#compare-plans">Compare Our Plans</a> -->
 
                                     <div class="spacer-single"></div>
@@ -646,7 +645,7 @@
           
          
 
-            <section class="no-bottom jarallax">
+            <section id="about" class="no-bottom jarallax">
                 <div class="de-gradient-edge-top"></div>
                 <div class="de-gradient-edge-bottom"></div>
                 <img src="images/background/u.webp" class="jarallax-img" alt="">
@@ -659,7 +658,7 @@
                         </div>
 
                         <div class="col-lg-6">
-                            <div class="subtitle wow fadeInUp mb-3">About Us</div>
+                            <div  class="subtitle wow fadeInUp mb-3">About Us</div>
                             
                             <p class="wow fadeInUp">Alaan is a public cloud services provider in the Libyan market. It delivers state-of-the-art cloud technologies with high consistency and professional support.</p>
                             <p class="wow fadeInUp">Alaan ensures meeting customers’ needs at a quality level regardless of their demands and tunes these demands in a better shape and beyond their expectations. Customers may seek public, private (on Alaan or on their premises), or hybrid cloud services, shared or dedicated, all professionally designed, delivered, and hosted on Libyan soil.</p>
@@ -767,7 +766,7 @@
             </section>
 
            
-            <section aria-label="section">
+            <section id="contact" aria-label="section">
                 <div class="container">
 						<div class="row g-custom-x">
                             <div class="col-lg-12">                            
@@ -932,6 +931,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                         <li><a href="#">Alaan Datacenter</a></li>
                                         <li><a href="#">Rack Rental and Colocation</a></li>
                                         <li><a href="#">Alaan IaaS</a></li>
+                                        <li><a href="#">Alaan PaaS</a></li>
                                         <li><a href="#">Storage as a service</a></li>
                                     </ul>
                                 </div>
@@ -946,9 +946,9 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="widget">
                                 <h5>Follow Us on</h5>
                                 <div class="social-icons">
-                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/alaantech.ly"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://www.facebook.com/alaantech.ly"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.x.com/alaantech.ly"><i class="fa-brands fa-x"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -959,7 +959,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-sm-6">
-                           Copyright 2023 - Alaan for Communication & IT
+                           Copyright 2024 - Alaan for Communication & IT
                         </div>
                         <div class="col-lg-6 col-sm-6 text-lg-end text-sm-start">
                             <ul class="menu-simple">
