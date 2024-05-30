@@ -861,7 +861,7 @@
                             </form>
                             
                             
- <script>
+ <!-- <script>
 document.addEventListener('DOMContentLoaded', function() {
     var form = document.getElementById('contact_form');
 
@@ -897,7 +897,7 @@ document.addEventListener('DOMContentLoaded', function() {
         xhr.send(formData);
     });
 });
-</script>
+</script> -->
                             
                             
                             
