@@ -1,0 +1,3 @@
+<FilesMatch "\.(html|css|js|jpg|jpeg|png|gif|svg|ico)$">
+    ExpiresDefault "access plus X days"
+</FilesMatch>
