@@ -744,7 +744,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12"> <!-- data-video-src="mp4:flag-of-libya.mp4" -->
-                            <div class="blur padding60 sm-padding40 sm-p-2 jarallax position-relative" data-video-src="mp4:flag-of-libya_compress.mp4">
+                            <div class="blur padding60 sm-padding40 sm-p-2 jarallax position-relative" data-video-src="mp4:flag-of-libya_compressed.mp4">
                                 
                                 <div class="row">
                                     <div class="col-lg-12 p-3 rounded-20 bg-gradient-dark">
