@@ -217,7 +217,7 @@
             <section class="jarallax">
                 <div class="de-gradient-edge-top"></div>
                 <div class="de-gradient-edge-bottom"></div>
-                <img src="images/background/alaan-grid-bg.jpg" class="jarallax-img" alt="">
+                <img src="images/background/alaan-grid-bg.webp" class="jarallax-img" alt="">
                 <div class="container z-1000">
                     <div class="row">
                         <div class="col-lg-12">
