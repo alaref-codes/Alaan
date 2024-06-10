@@ -817,46 +817,70 @@
                         <div class="col-lg-10 offset-lg-1">
 
                           
+                        <form name="contactForm" id="contact_form" class="position-relative z1000" method="POST" action="">
+    <div class="row gx-4">
+        <div class="col-lg-6 mb10">
+            <div class="field-set">
+                <span class="d-label">Name</span>
+                <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
+            </div>
 
-                            <form name="contactForm" id="contact_form" class="position-relative z1000" method="POST" action="">
-                                <div class="row gx-4">
-                                    <div class="col-lg-6 mb10">
-                                        <div class="field-set">
-                                            <span class="d-label">Name</span>
-                                            <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
-                                        </div>
+            <div class="field-set">
+                <span class="d-label">Business Email</span>
+                <input type="email" name="Email" id="email" class="form-control" placeholder="Your Business Email" required>
+            </div>
 
-                                        <div class="field-set">
-                                            <span class="d-label">Business Email</span>
-                                            <input type="text" name="Email" id="email" class="form-control" placeholder="Your Business Email" required>
-                                        </div>
+            <div class="field-set">
+                <span class="d-label">Phone</span>
+                <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone" required>
+            </div>
+        </div>
+        
+        <div class="col-lg-6">
+            <div class="field-set mb20">
+                <span class="d-label">Service</span>
+                <select name="Service" id="service" class="form-control" required>
+                    <option value="" disabled selected>Select a Service</option>
+                    <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
+                    <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
+                    <option value="Alaan Storage as a Service">Alaan Storage as a Service</option>
+                    <option value="Alaan Migration Service">Alaan Migration Service</option>
+                    <option value="Alaan Backup and Restore as a Service">Alaan Backup and Restore as a Service</option>
+                    <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
+                    <option value="Rack rental and Colocation">Rack rental and Colocation</option>
+                </select>
+            </div>
 
-                                        <div class="field-set">
-                                            <span class="d-label">Phone</span>
-                                            <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone" required>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-lg-6">
-                                        <div class="field-set mb20">
-                                            <span class="d-label">Message</span>
-                                            <textarea name="Message" id="message" class="form-control" placeholder="Your Message" required></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                    
-                                
-                                <div id='submit' class="mt20">
-                                    <input type='submit' name="submit" id='send_message' value='Send Message' class="btn-main">
-                                </div>
+            <div class="field-set mb20">
+                <span class="d-label">Message</span>
+                <textarea name="Message" id="message" class="form-control" placeholder="Your Message" required></textarea>
+            </div>
+        </div>
+    </div>
+        
+    <div id='submit' class="mt20">
+        <input type='submit' name="submit" id='send_message' value='Send Message' class="btn-main">
+    </div>
 
-                                <div id="success_message" class='success'>
-                                    Your message has been sent successfully. Refresh this page if you want to send more messages.
-                                </div>
-                                <div id="error_message" class='error'>
-                                    Sorry there was an error sending your form.
-                                </div>
-                            </form>
+    <div id="alert_message">
+        <?php if (isset($alert)) echo $alert; ?>
+    </div>
+</form>
+
+<script>
+document.getElementById('contact_form').addEventListener('submit', function(event) {
+    var emailField = document.getElementById('email');
+    var emailValue = emailField.value;
+    var forbiddenDomains = ['gmail.com', 'yahoo.com', 'outlook.com'];
+
+    var emailDomain = emailValue.split('@')[1];
+
+    if (forbiddenDomains.includes(emailDomain)) {
+        event.preventDefault();
+        alert('Please use a business email address. Gmail, Yahoo, and Outlook emails are not accepted.');
+    }
+});
+</script>
                             
                <!--           
  <script>
