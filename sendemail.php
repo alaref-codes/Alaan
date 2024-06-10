@@ -21,10 +21,10 @@ if(filter_var($_POST['Email'], FILTER_VALIDATE_EMAIL)){
 
   try{
     $mail->isSMTP();
-    $mail->Host = 'mail.alaan.ly'; //'smtp.office365.com';
+    $mail->Host = 'smtp.office365.com'; //'smtp.office365.com' //'mail.alaan.ly';
     $mail->SMTPAuth = true;
     $mail->Username = 'sales@alaan.ly'; // Gmail address which you want to use as SMTP server
-    $mail->Password = '_edb$O+CjX%}'; //'dlbvbtfjmsljmwrc'; // Gmail address Password
+    $mail->Password = 'aSB4@3#bB56@Ku'; //'dlbvbtfjmsljmwrc'; // Gmail address Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
   
     $mail->Port = '587'; //'465'; //'587';
