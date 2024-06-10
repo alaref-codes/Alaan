@@ -829,20 +829,20 @@
                                         </div>
 
                                         <div class="field-set">
-                                            <span class="d-label">البريد الإلكتروني</span>
-                                            <input type="text" name="Email" id="email" class="form-control" placeholder="Your Email" required>
+                                            <span class="d-label">البريد الإلكتروني الخاص بالعمل</span>
+                                            <input type="text" name="Email" id="email" class="form-control" placeholder="بريدك الإلكتروني الخاص بالعمل" required>
                                         </div>
 
                                         <div class="field-set">
                                             <span class="d-label">رقم الهاتف</span>
-                                            <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone" required>
+                                            <input type="text" name="Phone" id="phone" class="form-control" placeholder="هاتفك" required>
                                         </div>
                                     </div>
                                     
                                     <div class="col-lg-6">
                                         <div class="field-set mb20">
                                             <span class="d-label">الرسالة</span>
-                                            <textarea name="Message" id="message" class="form-control" placeholder="Your Message" required></textarea>
+                                            <textarea name="Message" id="message" class="form-control" placeholder="رسالتُك" required></textarea>
                                         </div>
                                     </div>
                                 </div>

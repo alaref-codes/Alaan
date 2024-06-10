@@ -827,8 +827,8 @@
                                         </div>
 
                                         <div class="field-set">
-                                            <span class="d-label">Email</span>
-                                            <input type="text" name="Email" id="email" class="form-control" placeholder="Your Email" required>
+                                            <span class="d-label">Business Email</span>
+                                            <input type="text" name="Email" id="email" class="form-control" placeholder="Your Business Email" required>
                                         </div>
 
                                         <div class="field-set">
