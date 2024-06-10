@@ -170,7 +170,7 @@
                             </div>
                             <div class="de-flex-col">
                                 <div class="menu_side_area">
-                                    <a href="https://alaan.ly/ar/index.html" class="btn-line">العربية</a>
+                                    <a href="https://alaan.ly/ar/index.php" class="btn-line">العربية</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>
