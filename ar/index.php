@@ -825,7 +825,7 @@
                                     <div class="col-lg-6 mb10">
                                         <div class="field-set">
                                             <span class="d-label">الإسم</span>
-                                            <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
+                                            <input type="text" name="Name" id="name" class="form-control" placeholder="اسمك بالكامل" required>
                                         </div>
 
                                         <div class="field-set">
