@@ -27,7 +27,7 @@ if(filter_var($_POST['Email'], FILTER_VALIDATE_EMAIL)){
     $mail->Password = '_edb$O+CjX%}'; //'dlbvbtfjmsljmwrc'; // Gmail address Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
   
-    $mail->Port = '587'; //'465'; //'587';
+    $mail->Port = '465'; //'465'; //'587';
 
     $mail->setFrom('sales@alaan.ly'); // Email address which you used as SMTP server
     $mail->addAddress('sales@alaan.ly'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
