@@ -844,7 +844,7 @@
                                     <div class="field-set mb20">
                 <span>اختر الخدمة المغضلة إليك*</span>
                 <div class="select-wrap">
-                <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224;">
+                <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224; border-radius: 5px; margin:5px;">
                     <option value="" disabled selected>اختر إحدى هذه الخدمات</option>
                     <option value="Alaan Infrastructure as a Service">البنية التحتية كخدمة (IaaS)</option>
                     <option value="Alaan Platform as a Service">المنصة السحابية كخدمة (PaaS)</option>
