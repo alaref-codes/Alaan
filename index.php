@@ -840,7 +840,7 @@
             <div class="field-set mb20">
                 <span>Choose your preferred service*</span>
                 <div class="select-wrap">
-                <select name="Service" id="service" class="form-control custom-dropdow" required>
+                <select name="Service" id="service" class="form-control custom-dropdow" required style="background: red;">
                     <option value="" disabled selected>Select a Service</option>
                     <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
                     <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
