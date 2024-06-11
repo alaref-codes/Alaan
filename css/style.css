@@ -19194,39 +19194,37 @@ img {
     box-shadow: none;
   }
 
-  /* Base dropdown styles */
+/* Base dropdown styles */
 .custom-dropdown {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid #007bff; /* Primary color */
   border-radius: 4px;
-  background: #000; /*var(--secondary-color); */
-  color: #ffffff;
+  background-color: #ffffff; /* White background for better contrast */
+  color: #000000; /* Black text for contrast */
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-}
-
-/* Arrow for the dropdown */
-.custom-dropdown::after {
-  float: right;
-  margin-right: 10px;
-  color: #ffffff;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23007bff" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 16px;
 }
 
 /* Dropdown options */
 .custom-dropdown option {
-  background: red; /*var(--bg-dark-1); */
-  color: blue; /*var(--primary-color); */
+  background-color: #ffffff; /* White background for options */
+  color: #000000; /* Black text for options */
 }
 
 /* Focus and hover effects */
 .custom-dropdown:focus,
 .custom-dropdown:hover {
-  border-color: var(--secondary-color);
-  box-shadow: 0px 0px 0px 4px rgba(var(--primary-color-rgb), .3);
+  border-color: #0056b3; /* Darker primary color on focus/hover */
+  box-shadow: 0px 0px 4px 0px rgba(0, 123, 255, 0.5); /* Add subtle shadow */
 }
+
 
 
   #mainmenu a.menu-item {
