@@ -842,7 +842,7 @@
                 <div class="select-wrap">
                                         <select name='Server Location' class="server_location" class="form-control">
                                       <option value='option-1' >
-                                        London, England
+                                        London
                                       </option>
                                       <option value='option-2' >
                                         Paris, France
