@@ -840,6 +840,26 @@
                                     </div>
                                     
                                     <div class="col-lg-6">
+
+                                    <div class="field-set mb20">
+                <span>Choose your preferred service*</span>
+                <div class="select-wrap">
+                <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224;">
+                    <option value="" disabled selected>Select a Service</option>
+                    <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
+                    <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
+                    <option value="Alaan Storage as a Service">Alaan Storage as a Service</option>
+                    <option value="Alaan Migration Service">Alaan Migration Service</option>
+                    <option value="Alaan Backup and Restore as a Service">Alaan Backup and Restore as a Service</option>
+                    <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
+                    <option value="Rack rental and Colocation">Rack rental and Colocation</option>
+                </select>
+                 </div>
+            </div>
+
+
+
+
                                         <div class="field-set mb20">
                                             <span class="d-label">الرسالة</span>
                                             <textarea name="Message" id="message" class="form-control" placeholder="رسالتُك" required></textarea>
