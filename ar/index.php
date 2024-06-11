@@ -842,14 +842,14 @@
                                     <div class="col-lg-6">
 
                                     <div class="field-set mb20">
-                <span>Choose your preferred service*</span>
+                <span>اختر الخدمة المغضلة إليك*</span>
                 <div class="select-wrap">
                 <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224;">
-                    <option value="" disabled selected>Select a Service</option>
-                    <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
-                    <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
-                    <option value="Alaan S3 Storage as a Service">Alaan Storage as a Service</option>
-                    <option value="Alaan Migration Service">Alaan Migration Service</option>
+                    <option value="" disabled selected>اختر إحدى هذه الخدمات</option>
+                    <option value="Alaan Infrastructure as a Service">البنية التحتية كخدمة (IaaS)</option>
+                    <option value="Alaan Platform as a Service">المنصة السحابية كخدمة (PaaS)</option>
+                    <option value="Alaan S3 Storage as a Service">التخزين الساحبي باستخدام S3</option>
+                    <option value="Alaan Migration Service">خدمة الترحيل السحابي</option>
                     <option value="Alaan Multi-tenant backup and restore as a service">Alaan Backup and Restore as a Service</option>
                     <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
                     <option value="Rack rental and Colocation">Rack rental and Colocation</option>
