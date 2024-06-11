@@ -855,7 +855,7 @@
 
             <div class="field-set mb20">
                 <span class="d-label">Message</span>
-                <textarea name="Message" id="message" class="form-control" placeholder="Your Message" required></textarea>
+                <textarea name="Message" id="message" class="form-control" placeholder="Why are you interested in this service? Tell us more about your scope of the resources and your type of buisness..." required></textarea>
             </div>
         </div>
     </div>
