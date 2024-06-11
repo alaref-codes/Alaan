@@ -19210,7 +19210,6 @@ img {
 
 /* Arrow for the dropdown */
 .custom-dropdown::after {
-  content: '▼';
   float: right;
   margin-right: 10px;
   color: #ffffff;
@@ -19218,7 +19217,7 @@ img {
 
 /* Dropdown options */
 .custom-dropdown option {
-  background: #ffffff;
+  background: var(--bg-dark-1);
   color: var(--primary-color);
 }
 
