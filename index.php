@@ -832,7 +832,7 @@
 
             <div class="field-set">
                 <span class="d-label">Phone*</span>
-                <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone" required>
+                <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone Number" required>
             </div>
         </div>
         
