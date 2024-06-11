@@ -3147,7 +3147,7 @@ footer:not(.footer-light) #form_subscribe.form-dark input[type=text] {
 .form-default textarea:focus,
 .form-default input[type=email]:focus,
 .form-default select:focus {
-  background: #f6f6f6;
+  background: #000;
 }
 
 .error_input {
