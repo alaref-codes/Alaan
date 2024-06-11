@@ -838,7 +838,7 @@
         
         <div class="col-lg-6">
             <div class="field-set mb20">
-                <span>Service</span>
+                <span>Choose your preferred service</span>
                 <div class="select-wrap">
                 <select name="Service" id="service" class="form-control" required>
                     <option value="" disabled selected>Select a Service</option>
