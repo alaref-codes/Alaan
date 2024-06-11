@@ -821,17 +821,17 @@
     <div class="row gx-4">
         <div class="col-lg-6 mb10">
             <div class="field-set">
-                <span class="d-label">Name</span>
+                <span class="d-label">Name*</span>
                 <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
             </div>
 
             <div class="field-set">
-                <span class="d-label">Business Email</span>
+                <span class="d-label">Business Email*</span>
                 <input type="email" name="Email" id="email" class="form-control" placeholder="Your Business Email" required>
             </div>
 
             <div class="field-set">
-                <span class="d-label">Phone</span>
+                <span class="d-label">Phone*</span>
                 <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone" required>
             </div>
         </div>
@@ -854,7 +854,7 @@
             </div>
 
             <div class="field-set mb20">
-                <span class="d-label">Message</span>
+                <span class="d-label">Message*</span>
                 <textarea name="Message" id="message" class="form-control" placeholder="Why are you interested in this service? Tell us more about your scope of the resources and your type of buisness..." required></textarea>
             </div>
         </div>
