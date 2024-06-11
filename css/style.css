@@ -19194,9 +19194,41 @@ img {
     box-shadow: none;
   }
 
-  .option{
-    background: #111;
-  }
+  /* Base dropdown styles */
+.custom-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  background: var(--secondary-color);
+  color: #ffffff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Arrow for the dropdown */
+.custom-dropdown::after {
+  content: '▼';
+  float: right;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+/* Dropdown options */
+.custom-dropdown option {
+  background: #ffffff;
+  color: var(--primary-color);
+}
+
+/* Focus and hover effects */
+.custom-dropdown:focus,
+.custom-dropdown:hover {
+  border-color: var(--secondary-color);
+  box-shadow: 0px 0px 0px 4px rgba(var(--primary-color-rgb), .3);
+}
+
 
   #mainmenu a.menu-item {
     text-align: left;

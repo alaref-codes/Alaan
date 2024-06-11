@@ -839,10 +839,10 @@
         <div class="col-lg-6">
             <div class="field-set mb20">
                 <span class="d-label">Service</span>
-                <select name="Service" id="service" class="form-control" required>
+                <select class="custom-dropdown" name="Service" id="service" class="form-control" required>
                     <option value="" disabled selected>Select a Service</option>
-                    <option class="option" value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
-                    <option class="option" value="Alaan Platform as a Service">Alaan Platform as a Service</option>
+                    <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
+                    <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
                     <option value="Alaan Storage as a Service">Alaan Storage as a Service</option>
                     <option value="Alaan Migration Service">Alaan Migration Service</option>
                     <option value="Alaan Backup and Restore as a Service">Alaan Backup and Restore as a Service</option>
