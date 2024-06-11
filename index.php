@@ -838,20 +838,33 @@
         
         <div class="col-lg-6">
             <div class="field-set mb20">
-                <span class="d-label">Choose your preferred service</span>
-                  <div class="select-wrap">
-                                    <select name='Service' class="service" class="form-control">
-                                       <option value="" disabled selected>Select a Service</option>
-                                       <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
-                                       <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
-                                       <option value="Alaan Storage as a Service">Alaan Storage as a Service</option>
-                                       <option value="Alaan Migration Service">Alaan Migration Service</option>
-                                       <option value="Alaan Backup and Restore as a Service">Alaan Backup and Restore as a Service</option>
-                                       <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
-                                       <option value="Rack rental and Colocation">Rack rental and Colocation</option>
-                                    </select>
-                  </div>
-          
+                <span class="d-label">Service</span>
+                <div class="select-wrap">
+                                        <select name='Service' class="service" class="form-control">
+                                      <option value='option-1' data-src="images/flags/united-kingdom.png">
+                                        London, England
+                                      </option>
+                                      <option value='option-2' data-src="images/flags/france.png">
+                                        Paris, France
+                                      </option>
+                                      <option value='option-3' data-src="images/flags/germany.png">
+                                        Frankurt, Germany
+                                      </option>
+                                      <option value='option-4' data-src="images/flags/netherlands.png">
+                                        Amsterdam, Netherlands
+                                      </option>
+</select>
+</div>
+                <select class="custom-dropdown" name="Service" id="service" class="form-control" required>
+                    <option value="" disabled selected>Select a Service</option>
+                    <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
+                    <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
+                    <option value="Alaan Storage as a Service">Alaan Storage as a Service</option>
+                    <option value="Alaan Migration Service">Alaan Migration Service</option>
+                    <option value="Alaan Backup and Restore as a Service">Alaan Backup and Restore as a Service</option>
+                    <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
+                    <option value="Rack rental and Colocation">Rack rental and Colocation</option>
+                </select>
             </div>
 
             <div class="field-set mb20">
