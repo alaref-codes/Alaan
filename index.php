@@ -839,7 +839,7 @@
         <div class="col-lg-6">
             <div class="field-set mb20">
                 <span>Service</span>
-            
+                <div class="select-wrap">
                 <select name="Service" id="service" class="form-control" required>
                     <option value="" disabled selected>Select a Service</option>
                     <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
@@ -850,6 +850,7 @@
                     <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
                     <option value="Rack rental and Colocation">Rack rental and Colocation</option>
                 </select>
+                 </div>
             </div>
 
             <div class="field-set mb20">
