@@ -840,7 +840,7 @@
             <div class="field-set mb20">
                 <span>Choose your preferred service*</span>
                 <div class="select-wrap">
-                <select name='Server Location' id="service" class="form-control server_location" required>
+                <select name='Server Location' id="service" class="form-control" required>
                     <option value="" disabled selected>Select a Service</option>
                     <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
                     <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
