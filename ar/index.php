@@ -154,7 +154,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a class="menu-item" href="#">الخطط  و العروض</a></li>
+                                    <li><a class="menu-item" href="#">آخر الأخبار</a></li>
                                     <li><a class="menu-item" href="#">حول الشركة</a></li>
                                     <li><a class="menu-item" href="#">تواصل معنا</a>
                                        
