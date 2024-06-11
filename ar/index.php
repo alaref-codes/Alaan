@@ -835,14 +835,14 @@
 
                                         <div class="field-set">
                                             <span class="d-label">رقم الهاتف</span>
-                                            <input type="text" name="Phone" id="phone" class="form-control" placeholder="هاتفك" required>
+                                            <input type="text" name="Phone" id="phone" class="form-control" placeholder="أدخل رقم هاتفك" required>
                                         </div>
                                     </div>
                                     
                                     <div class="col-lg-6">
 
                                     <div class="field-set mb20">
-                <span>اختر الخدمة المغضلة إليك*</span>
+                <span>اختر الخدمة المفضّلة إليك*</span>
                 <div class="select-wrap">
                 <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224; border-radius: 5px; margin:5px;">
                     <option value="" disabled selected>اختر إحدى هذه الخدمات</option>
