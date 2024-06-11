@@ -844,9 +844,9 @@
                     <option value="" disabled selected>Select a Service</option>
                     <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
                     <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
-                    <option value="Alaan S3 Storage as a Service">Alaan Storage as a Service</option>
+                    <option value="Alaan S3 Storage as a Service">Alaan S3 Storage as a Service</option>
                     <option value="Alaan Migration Service">Alaan Migration Service</option>
-                    <option value="Alaan Multi-tenant backup and restore as a service">Alaan Backup and Restore as a Service</option>
+                    <option value="Alaan Multi-tenant backup and restore as a service">Multi-tenant backup and restore as a service</option>
                     <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
                     <option value="Rack rental and Colocation">Rack rental and Colocation</option>
                 </select>

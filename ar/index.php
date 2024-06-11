@@ -851,8 +851,8 @@
                     <option value="Alaan S3 Storage as a Service">التخزين الساحبي باستخدام S3</option>
                     <option value="Alaan Migration Service">خدمة الترحيل السحابي</option>
                     <option value="Alaan Multi-tenant backup and restore as a service">Alaan Backup and Restore as a Service</option>
-                    <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
-                    <option value="Rack rental and Colocation">Rack rental and Colocation</option>
+                    <option value="Cloud and Datacenter Consultancy">استشارات السحابة ومراكز البيانات</option>
+                    <option value="Rack rental and Colocation">التأجير والإستضافة المكانية للخوادم</option>
                 </select>
                  </div>
             </div>
