@@ -839,23 +839,8 @@
         <div class="col-lg-6">
             <div class="field-set mb20">
                 <span>Service</span>
-                <div class="select-wrap">
-                                <select name='Service' id="service" class="form-control">
-                                      <option value='Alaan Infrastructure as a Service'>
-                                      Alaan Infrastructure as a Service
-                                      </option>
-                                      <option value='option-2' >
-                                        Paris, France
-                                      </option>
-                                      <option value='option-3' >
-                                        Frankurt, Germany
-                                      </option>
-                                      <option value='option-4' >
-                                        Amsterdam, Netherlands
-                                      </option>
-                                </select>
-      </div>
-                <select class="custom-dropdown" name="Service" id="service" class="form-control" required>
+            
+                <select name="Service" id="service" class="form-control" required>
                     <option value="" disabled selected>Select a Service</option>
                     <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
                     <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
