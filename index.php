@@ -817,7 +817,7 @@
                         <div class="col-lg-10 offset-lg-1">
 
                           
-                        <form name="contactForm" id="contact_form" class="position-relative z1000" method="POST" action="">
+  <form name="contactForm" id="contact_form" class="position-relative z1000" method="POST" action="">
     <div class="row gx-4">
         <div class="col-lg-6 mb10">
             <div class="field-set">
@@ -841,8 +841,8 @@
                 <span class="d-label">Service</span>
                 <select name="Service" id="service" class="form-control" required>
                     <option value="" disabled selected>Select a Service</option>
-                    <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
-                    <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
+                    <option class="option" value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
+                    <option class="option" value="Alaan Platform as a Service">Alaan Platform as a Service</option>
                     <option value="Alaan Storage as a Service">Alaan Storage as a Service</option>
                     <option value="Alaan Migration Service">Alaan Migration Service</option>
                     <option value="Alaan Backup and Restore as a Service">Alaan Backup and Restore as a Service</option>
