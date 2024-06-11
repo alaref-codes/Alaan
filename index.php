@@ -840,7 +840,7 @@
             <div class="field-set mb20">
                 <span class="d-label">Service</span>
                 <div class="select-wrap">
-                                <select name='Service' id="service" class="server_location" class="form-control">
+                                <select name='Service' id="service" class="form-control">
                                       <option value='Alaan Infrastructure as a Service'>
                                       Alaan Infrastructure as a Service
                                       </option>
