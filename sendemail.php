@@ -45,6 +45,7 @@ if (isset($_POST['submit'])) {
             $mail->addAddress('sales@alaan.ly');
 
             $mail->isHTML(true);
+            $mail->CharSet = 'UTF-8'; // Set character set to UTF-8
             $mail->Subject = 'Alaan website (Contact form)';
             $mail->Body = "<h3>Name: $name <br>Email: $email <br>Phone Number: $phone <br>Service: $service <br>Message: $message</h3>";
 
