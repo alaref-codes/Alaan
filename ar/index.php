@@ -850,7 +850,7 @@
                     <option value="Alaan Platform as a Service">المنصة السحابية كخدمة (PaaS)</option>
                     <option value="Alaan S3 Storage as a Service">التخزين الساحبي باستخدام S3</option>
                     <option value="Alaan Migration Service">خدمة الترحيل السحابي</option>
-                    <option value="Alaan Multi-tenant backup and restore as a service">Alaan Backup and Restore as a Service</option>
+                    <option value="Alaan Multi-tenant backup and restore as a service">خدمة النسخ الاحتياطي والاستعادة متعددة المستأجرين</option>
                     <option value="Cloud and Datacenter Consultancy">استشارات السحابة ومراكز البيانات</option>
                     <option value="Rack rental and Colocation">التأجير والإستضافة المكانية للخوادم</option>
                 </select>
