@@ -19218,7 +19218,7 @@ img {
 /* Dropdown options */
 .custom-dropdown option {
   background: red; /*var(--bg-dark-1); */
-  color: blue /*var(--primary-color); */
+  color: blue; /*var(--primary-color); */
 }
 
 /* Focus and hover effects */
