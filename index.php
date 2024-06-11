@@ -840,7 +840,7 @@
             <div class="field-set mb20">
                 <span>Choose your preferred service*</span>
                 <div class="select-wrap">
-                <select name="Service" id="service" class="form-control">
+                <select name="Service" id="service" class="form-control" size="8" required>
                     <option value="" disabled selected>Select a Service</option>
                     <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
                     <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
@@ -868,6 +868,14 @@
         <?php if (isset($alert)) echo $alert; ?>
     </div>
 </form>
+
+<script>
+        // JavaScript to automatically expand the dropdown for testing purposes
+        document.addEventListener("DOMContentLoaded", function() {
+            var selectElement = document.getElementById("service");
+            selectElement.size = selectElement.options.length;
+        });
+    </script>
 
 <script>
 document.getElementById('contact_form').addEventListener('submit', function(event) {
