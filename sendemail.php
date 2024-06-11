@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
 
             $mail->send();
             $alert = '<div class="alert-success">
-                        <span>Message Sent! Thank you for contacting us. Please verify your email address.</span>
+                        <span>Message Sent! Thank you for contacting us. We will contact you as soon as possible.</span>
                       </div>';
         } catch (Exception $e) {
             $alert = '<div class="alert-error">
