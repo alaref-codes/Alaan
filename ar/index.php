@@ -869,16 +869,29 @@
                                     
                                 
                                 <div id='submit' class="mt20">
-                                    <input type='submit' name="submit" id='send_message' value='أرسل الآن' class="btn-main">
-                                </div>
+        <input type='submit' name="submit" id='send_message' value='أرسل الآن' class="btn-main">
+    </div>
 
-                                <div id="success_message" class='success'>
-                                    Your message has been sent successfully. Refresh this page if you want to send more messages.
-                                </div>
-                                <div id="error_message" class='error'>
-                                    Sorry there was an error sending your form.
-                                </div>
+    <div id="alert_message">
+        <?php if (isset($alert)) echo $alert; ?>
+    </div>
                             </form>
+
+
+                            <script>
+document.getElementById('contact_form').addEventListener('submit', function(event) {
+    var emailField = document.getElementById('email');
+    var emailValue = emailField.value;
+    var forbiddenDomains = ['gmail.com', 'yahoo.com', 'outlook.com'];
+
+    var emailDomain = emailValue.split('@')[1];
+
+    if (forbiddenDomains.includes(emailDomain)) {
+        event.preventDefault();
+        alert('Please use a business email address. Gmail, Yahoo, and Outlook emails are not accepted.');
+    }
+});
+</script>
                             
 <!--            
  <script>
