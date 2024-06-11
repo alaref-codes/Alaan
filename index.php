@@ -840,7 +840,7 @@
             <div class="field-set mb20">
                 <span class="d-label">Service</span>
                 <div class="select-wrap">
-                                        <select name='Service' class="service" class="form-control">
+                                        <select name='Server Location' class="server_location" class="form-control">
                                       <option value='option-1' data-src="images/flags/united-kingdom.png">
                                         London, England
                                       </option>
