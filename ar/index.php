@@ -156,7 +156,7 @@
                                     </li>
                                     <li><a class="menu-item" href="#">آخر الأخبار</a></li>
                                     <li><a class="menu-item" href="#">حول الشركة</a></li>
-                                    <li><a class="menu-item" href="#">تواصل معنا</a>
+                                    <li><a class="menu-item" href="#contact_form">تواصل معنا</a>
                                        
                                     </li>
                                     
@@ -203,7 +203,7 @@
                                     <p class="wow fadeInUp">اختبر المستوى التالي من الكفاءة والابتكار. تم تصميم بيئة الاستضافة السحابية الخاصة بنا لرفع أعباء العمل الخاصة بك، مما يوفر أداءً لا مثيل له، وأمانًا، وقابلية للتوسع. انضم إلينا في رحلة نحو تجربة رقمية متقدمة.
 
                                     </p>
-                                    <a class="btn-main wow fadeInUp" style="margin-right: 2%;" href="#">جرّب مجاناً</a>
+                                    <a class="btn-main wow fadeInUp" style="margin-right: 2%;" href="#contact_form">جرّب مجاناً</a>
                                    <!-- <a class="btn-main wow fadeInUp" href="#compare-plans">Compare Our Plans</a> -->
 
                                     <div class="spacer-single"></div>

@@ -154,7 +154,7 @@
                                     </li>
                                     <li><a class="menu-item" href="#">News</a></li>
                                     <li><a class="menu-item" href="#about">About Us</a></li>
-                                    <li><a class="menu-item" href="#contact">Contact</a>
+                                    <li><a class="menu-item" href="#contact_form">Contact</a>
                                        
                                     </li>
                                     
@@ -199,7 +199,7 @@
                                 </div>
                                 <div class="col-lg-6 offset-lg-3 text-center text-white">
                                     <p class="wow fadeInUp">Experience the next level of efficiency and innovation. Our Cloud hosting environment is engineered to elevate your workloads, offering unparalleled performance, security, and scalability. Join us on the journey to a future-forward digital experience</p>
-                                    <a class="btn-main wow fadeInUp" style="margin-right: 2%;" href="#contact">Book  a demo</a>
+                                    <a class="btn-main wow fadeInUp" style="margin-right: 2%;" href="#contact_form">Book  a demo</a>
                                 <!--    <a class="btn-main wow fadeInUp" href="#compare-plans">Compare Our Plans</a> -->
 
                                     <div class="spacer-single"></div>
