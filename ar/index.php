@@ -812,7 +812,7 @@
 
             </section>
 
-            <section>
+            <section id="contact_form">
                 <div class="container position-relative z1000">
                     <div class="row">
 
@@ -820,7 +820,7 @@
 
                           
 
-                            <form name="contactForm" id="contact_form" class="position-relative z1000" method="POST" action="">
+                            <form name="contactForm" class="position-relative z1000" method="POST" action="">
                                 <div class="row gx-4">
                                     <div class="col-lg-6 mb10">
                                         <div class="field-set">

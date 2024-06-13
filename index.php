@@ -810,7 +810,7 @@
 
             </section>
 
-            <section>
+            <section id="contact_form">
                 <div class="container position-relative z1000">
                     <div class="row">
 
