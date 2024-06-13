@@ -810,7 +810,7 @@
 
             </section>
 
-            <section class="no-top">
+            <section>
                 <div class="container position-relative z1000">
                     <div class="row">
 
