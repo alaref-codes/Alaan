@@ -764,7 +764,7 @@
             </section>
 
            
-            <section id="contact" aria-label="section">
+            <section id="contact" aria-label="section" class="no-bottom">
                 <div class="container">
 						<div class="row g-custom-x">
                             <div class="col-lg-12">                            
