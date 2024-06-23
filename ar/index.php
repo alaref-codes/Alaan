@@ -848,7 +848,7 @@
                     <option value="" disabled selected>اختر إحدى هذه الخدمات</option>
                     <option value="Alaan Infrastructure as a Service">البنية التحتية كخدمة (IaaS)</option>
                     <option value="Alaan Platform as a Service">المنصة السحابية كخدمة (PaaS)</option>
-                    <option value="Alaan S3 Storage as a Service">التخزين الساحبي باستخدام S3</option>
+                    <option value="Alaan S3 Storage as a Service">التخزين السحابي باستخدام S3</option>
                     <option value="Alaan Migration Service">خدمة الترحيل السحابي</option>
                     <option value="Alaan Multi-tenant backup and restore as a service">خدمة النسخ الاحتياطي والاستعادة متعددة المستأجرين</option>
                     <option value="Cloud and Datacenter Consultancy">استشارات السحابة ومراكز البيانات</option>
@@ -862,7 +862,7 @@
 
                                         <div class="field-set mb20">
                                             <span class="d-label">الرسالة</span>
-                                            <textarea name="Message" id="message" class="form-control" placeholder="لماذا أنت مهتم بهذه الخدمة؟ أخبرنا المزيد عن حدود مواردك ونوع مشروعك..." required></textarea>
+                                            <textarea name="Message" id="message" class="form-control" placeholder="لماذا أنت مهتم بهذه الخدمة؟ أخبرنا المزيد عن حجم ونوع مشروعك..." required></textarea>
                                         </div>
                                     </div>
                                 </div>
