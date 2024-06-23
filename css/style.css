@@ -10014,7 +10014,6 @@ object {
   -webkit-animation: pulsate 1.3s ease-out;
   -webkit-animation-iteration-count: infinite;
   opacity: 0.0;
-  
 }
 
 @-webkit-keyframes pulsate {
