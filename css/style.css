@@ -9999,15 +9999,6 @@ object {
   color:#ffffff;
   border: solid 2px rgba(255, 255, 255, .25);
 }
-.de-circle-1 {
-  width: 15px;
-  height: 15px;
-  background-color: var(--tertiary-color);
-  border-radius: 50%;
-  position: absolute;
-  margin: 5px 0 0 5px;
-  left: 31%;
-}
 
 .de-circle-2 {
   border: 4px solid var(--primary-color);
