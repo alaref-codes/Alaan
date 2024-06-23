@@ -183,7 +183,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a class="menu-item" href="#">News</a></li>
+                                    <li><a class="menu-item" href="#">Blog</a></li>
                                     <li><a class="menu-item" href="#about">About Us</a></li>
                                     <li><a class="menu-item" href="#contact_form">Contact</a>
                                        

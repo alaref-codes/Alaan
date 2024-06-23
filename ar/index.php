@@ -154,7 +154,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a class="menu-item" href="#">آخر الأخبار</a></li>
+                                    <li><a class="menu-item" href="#">المدونة</a></li>
                                     <li><a class="menu-item" href="#">حول الشركة</a></li>
                                     <li><a class="menu-item" href="#contact_form">تواصل معنا</a>
                                        
