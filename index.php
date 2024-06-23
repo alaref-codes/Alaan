@@ -36,6 +36,37 @@
 
         <!-- header begin -->
         <header class="transparent">
+
+<!-- marque breaking -->
+<div class="row py-2">
+    <div class="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+
+      <div class="d-inline-block d-md-block text-white text-center breaking-caret py-1 px-2"  style="background-color: #1974F9;">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" class="de-circle-2 bi bi-lightning-fill" viewBox="0 0 16 16">
+          <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+        </svg>
+        <span class="d-none d-md-inline-block">24 June 01</span>
+      </div>
+    </div>
+  
+    <!--Breaking content-->
+    <div class="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+      <div class="breaking-box pt-2 pb-1">
+        <!--marque-->
+        <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseleave="this.start();">
+           
+          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">Alaan is now</span>live and ready to serve you!</a>
+          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">launching!</span>We are officially pleased to announce the launch of our premium services!</a>
+          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">Secure Services</span>We are officially pleased to announce the launch of our premium services!</a>
+          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">Unlimited Potentials</span>We are officially pleased to announce the launch of our premium services!</a>
+        </marquee>
+      </div>
+    </div>
+  </div>
+  <!-- end marque breaking -->
+
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -44,7 +75,7 @@
                                 <div class="de-flex-col">
                                     <!-- logo begin -->
                                     <div id="logo">
-                                        <a href="index.php">
+                                        <a href="https://alaan.ly/">
                                             <img class="logo-main" src="images/alaan.svg" width="242" height="98" alt="" >
                                             <img class="logo-mobile" src="images/alaan.svg" width="136" height="64" alt="" >
                                         </a>
@@ -55,7 +86,7 @@
                             <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
                                     
-                                    <li><a class="menu-item" href="index.php">Home</a></li>
+                                    <li><a class="menu-item" href="https://alaan.ly/">Home</a></li>
                                     
                                     <li>
                                         <a class="menu-item" href="#">Services</a>
