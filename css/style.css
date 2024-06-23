@@ -12988,33 +12988,9 @@ i.bg-color-secondary {
   -webkit-border-radius:30px;
 }
 
-.subtitle.blink{
-  padding-left: 35px;
-}
-
-.subtitle.blink:before{
-  animation: blinkingText 1s infinite;
-  content:'';
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background: var(--primary-color);
-  border-radius:20px;
-  -moz-border-radius:20px;
-  -webkit-border-radius:20px;
-  top: 7.5px;
-  left: 10px;
-  -webkit-box-shadow: 0 0 10px 0px rgba(var(--primary-color-rgb), 1);
-  -moz-box-shadow: 0 0 10px 0px rgba(var(--primary-color-rgb), 1);
-  box-shadow: 0 0 10px 0px rgba(var(--primary-color-rgb), 1);
-}
 
 
-@keyframes blinkingText{
-  0%    { background: var(--primary-color);}
-  50%   { background: rgba(255, 255, 255, 1.0); }
-  100%    { background: var(--primary-color);}
-}
+
 
 body::-webkit-scrollbar,
 #de_modal::-webkit-scrollbar {
