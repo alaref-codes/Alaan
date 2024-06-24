@@ -47,7 +47,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" class="de-circle-2 bi bi-lightning-fill" viewBox="0 0 16 16">
           <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
         </svg>
-        <span class="d-none d-md-inline-block">June 01 24</span>
+        <span class="d-none d-md-inline-block">24 June 01</span>
       </div>
     </div>
   
