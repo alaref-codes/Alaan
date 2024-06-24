@@ -57,10 +57,10 @@
         <!--marque-->
         <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseleave="this.start();">
            
-          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">Alaan is now</span>live and ready to serve you!</a>
+          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">شركة الآن</span>جاهزة لتقديم كافة خدماتها إليكم!</a>
           <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">LAUNCHING!</span>We are pleased to officially announce the launch of our premium services!</a>
-          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">SECURE SERVICES</span>We are pleased to officially announce the launch of our premium services!</a>
-          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">UNLIMITED POTENTIALS</span>We are pleased to officially announce the launch of our premium services!</a>
+          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">خدمات آمنة</span>We are pleased to officially announce the launch of our premium services!</a>
+          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">إمكانيات غير محدودة</span>We are pleased to officially announce the launch of our premium services!</a>
         </marquee>
       </div>
     </div>
