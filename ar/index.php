@@ -55,7 +55,7 @@
     <div class="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
       <div class="breaking-box pt-2 pb-1">
         <!--marque-->
-        <marquee behavior="scroll" direction="right" onmouseover="this.stop();" onmouseleave="this.start();">
+        <marquee direction="right" onmouseover="this.stop();" onmouseleave="this.start();">
            
           <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">شركة الآن</span>جاهزة لتقديم كافة خدماتها إليكم !</a>
           <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">إطلاق خدماتنا !</span>يسعدنا أن نعلن رسميًا عن إطلاق خدماتنا المتميزة !</a>
