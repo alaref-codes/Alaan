@@ -58,8 +58,8 @@
            
           <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">Alaan is now</span>live and ready to serve you!</a>
           <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">LAUNCHING!</span>We are pleased to officially announce the launch of our premium services!</a>
-          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">SECURE SERVICES</span>We are pleased to officially announce the launch of our premium services!</a>
-          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">UNLIMITED POTENTIALS</span>We are pleased to officially announce the launch of our premium services!</a>
+          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">SECURE SERVICES</span>Your Trusted Public Cloud Partner in Libya!</a>
+          <a class="h6 fw-normal" href="#"><span class="position-relative mx-2 badge rounded-0" style="background-color: #1974F9;">UNLIMITED POTENTIALS</span>Our services are designed to enhance the performance and security of your buisness!</a>
         </marquee>
       </div>
     </div>
