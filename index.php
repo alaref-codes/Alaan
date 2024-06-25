@@ -150,7 +150,7 @@
                                
                                                                     <div class="d-inner">
                                                                         <h4>Alaan STaaS</h4>
-                                                                        Storage-as-a-Service.
+                                                                        S3 Storage-as-a-Service.
                                                                     </div>
                                                                 </a>
                                                                 <a class="box-icon mb20" href="#">
