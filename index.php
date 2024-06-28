@@ -832,7 +832,7 @@
                                     <svg class="svg ico mb-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.22 31.32"><defs></defs><path id="svg-ico" class="cls-1" d="M16.05,31.66C10.4,31.66,4.39,30.37,4.39,28c0-2,4.16-3,6.64-3.37a.42.42,0,0,1,.49.35.45.45,0,0,1-.36.5c-4.37.67-5.92,1.77-5.92,2.52,0,1.33,4.62,2.82,10.8,2.82S26.76,29.32,26.76,28c0-.7-1.56-1.73-5-2.34a.43.43,0,0,1-.28-.54.42.42,0,0,1,.43-.3c3.6.64,5.68,1.8,5.68,3.18,0,2.38-5.95,3.66-11.56,3.66Z" transform="translate(-4.39 -0.34)"/><path fill="#5e686b" stroke="#none" d="M16.05,25.94a.44.44,0,0,1-.35-.18C15.35,25.26,7.15,13.7,7.15,9A8.76,8.76,0,0,1,16,.34,8.91,8.91,0,0,1,24.85,9c0,4.65-8.1,16.23-8.45,16.72A.44.44,0,0,1,16.05,25.94ZM16,1.19A7.91,7.91,0,0,0,8,9c0,3.87,6.46,13.43,8,15.73C17.62,22.47,24,12.9,24,9A8.06,8.06,0,0,0,16,1.19Z" transform="translate(-4.39 -0.34)"/><path fill="#5e686b" stroke="#none" d="M16,13.57a4.24,4.24,0,1,1,4.24-4.24A4.24,4.24,0,0,1,16,13.57ZM16,6a3.39,3.39,0,0,0,0,6.76A3.39,3.39,0,0,0,16,6Z" transform="translate(-4.39 -0.34)"/></svg>
                                     
                                     <h4 class="text-center">Address</h4>
-                                    <p class="text-center">Alfernaj district, behind Agriculture Police Bureau Tripoli, Libya</p>
+                                    <p class="text-center">Tripoli University district, Fakini division, opposite Yathrib Private School.</p>
                                 </div>
                             </div>
 						
@@ -853,12 +853,12 @@
         <div class="col-lg-6 mb10">
             <div class="field-set">
                 <span class="d-label">Name*</span>
-                <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
+                <input type="text" name="Name" id="name" class="form-control" placeholder="Full Name" required>
             </div>
 
             <div class="field-set">
                 <span class="d-label">Business Email*</span>
-                <input type="email" name="Email" id="email" class="form-control" placeholder="Your Business Email" required>
+                <input type="email" name="Email" id="email" class="form-control" placeholder="Your Work Email" required>
             </div>
 
             <div class="field-set">
