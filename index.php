@@ -891,7 +891,7 @@
                 <span>Select the Services you are looking for*</span>
                 <div class="select-wrap">
                 <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224; border-radius: 5px; margin:5px;">
-                    <option value="" disabled selected>Select a Service</option>
+                    <option value="" disabled selected>Select Your Preffered Services</option>
                     <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
                     <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
                     <option value="Alaan S3 Storage as a Service">Alaan S3 Storage as a Service</option>
