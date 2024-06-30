@@ -955,7 +955,7 @@ document.getElementById('enquiry_form').addEventListener('submit', function(even
 
     if (forbiddenDomains.includes(emailDomain)) {
         event.preventDefault();
-        alert('Please use a business email address. Gmail, Yahoo, and Outlook emails are not accepted.');
+        alert('Please use a business email address. Gmail, Yahoo, icloud, and Outlook emails are not accepted.');
     }
 });
 </script>
