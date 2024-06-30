@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
     $forbiddenDomains = ['gmail.com', 'yahoo.com', 'outlook.com', 'icloud.com'];
     $emailDomain = substr(strrchr($email, "@"), 1);
 
-    if (empty($name) || empty($email) || empty($phone) || empty($companyName) || empty($jobTitle) || empty($businessArea) || empty($services) || empty($message)) {
+    if (empty($name) || empty($email) || empty($phone) || empty($companyname) || empty($jobtitle) || empty($businessarea) || empty($services) || empty($message)) {
         $alert = '<div class="alert-error">
                     <span>Please fill in all required fields.</span>
                   </div>';
