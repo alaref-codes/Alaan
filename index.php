@@ -917,7 +917,7 @@
             <div class="field-set mb20">
                 <span>Select the Services you are looking for*</span>
                 <div class="select-wrap">
-                <select name="Services[]" id="services" class="form-control custom-dropdown" multiple required>
+                <select name="Services[]" id="services" class="form-control select-services-dropdown" multiple required>
     <option value="" disabled>Select Your Preferred Services</option>
     <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
     <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
