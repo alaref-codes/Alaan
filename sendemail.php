@@ -13,7 +13,6 @@ if (isset($_POST['submit'])) {
   $name = trim($_POST['Name']);
   $email = trim($_POST['Email']);
   $phone = trim($_POST['Phone']);
-  $countryCode = trim($_POST['CountryCode']);
   $companyName = trim($_POST['CompanyName']);
   $jobTitle = trim($_POST['Jobtitle']);
   $website = trim($_POST['Website']);
@@ -54,12 +53,11 @@ if (isset($_POST['submit'])) {
             $mail->Subject = 'Alaan website (Contact form)';
 
             $servicesList = implode(", ", $services);
-            $phoneWithCountryCode = $countryCode . ' ' . $phone;
 
             $mail->Body = "
                 <h3>Name: $name <br>
                 Email: $email <br>
-                Phone Number: $phoneWithCountryCode <br>
+                Phone Number: $phone <br>
                 Company Name: $companyName <br>
                 Job Title: $jobTitle <br>
                 Website: $website <br>

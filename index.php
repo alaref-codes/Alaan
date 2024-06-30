@@ -868,12 +868,6 @@
             <div class="field-set">
                 <span class="d-label">Phone*</span>
                 <div class="d-flex">
-                    <select name="CountryCode" id="country_code" class="form-control" required>
-                        <!-- Add country options here -->
-                        <option value="1">🇺🇸 +1 (United States)</option>
-                        <option value="44">🇬🇧 +44 (United Kingdom)</option>
-                        <!-- Add more countries as needed -->
-                    </select>
                     <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone Number" required>
                 </div>
             </div>
@@ -968,17 +962,6 @@ document.getElementById('enquiry_form').addEventListener('submit', function(even
     }
 });
 
-document.getElementById('country_code').addEventListener('change', function() {
-            var selectedCountryCode = this.value;
-            var phoneInput = document.getElementById('phone');
-            // Change placeholder based on selected country code
-            if (selectedCountryCode === '1') {
-                phoneInput.placeholder = '123-456-7890'; // Example for US
-            } else if (selectedCountryCode === '44') {
-                phoneInput.placeholder = '01234 567890'; // Example for UK
-            }
-            // Add more country codes and placeholders as needed
-        });
 
 
 </script>
