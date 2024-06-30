@@ -852,7 +852,7 @@
                         <div class="col-lg-10 offset-lg-1">
 
                           
-  <form name="contactForm" class="position-relative z1000" method="POST" action="">
+  <form name="contactForm" id="enquiry_form" class="position-relative z1000" method="POST" action="">
     <div class="row gx-4">
         <div class="col-lg-6 mb10">
             <div class="field-set">
@@ -946,10 +946,10 @@
 
 
 <script>
-document.getElementById('contact_form').addEventListener('submit', function(event) {
+document.getElementById('enquiry_form').addEventListener('submit', function(event) {
     var emailField = document.getElementById('email');
     var emailValue = emailField.value;
-    var forbiddenDomains = ['gmail.com', 'yahoo.com', 'outlook.com'];
+    var forbiddenDomains = ['gmail.com', 'yahoo.com', 'outlook.com', 'icloud.com'];
 
     var emailDomain = emailValue.split('@')[1];
 
