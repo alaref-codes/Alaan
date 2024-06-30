@@ -845,7 +845,7 @@
                 <div class="container position-relative z1000">
                     <div class="row">
 
-                    <div class="col-lg-12 mb-4">
+                    <div class="col-lg-12 mb-5">
                             <h2 class="wow fadeInUp mb20 text-center" data-wow-delay=".2s">Cloud Services Enquiry Form</h2>
                     </div>
 
