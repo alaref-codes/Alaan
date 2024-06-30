@@ -867,6 +867,11 @@
             </div>
 
             <div class="field-set">
+                <span class="d-label">Company/Orginization Name*</span>
+                <input type="text" name="Phone" id="phone" class="form-control" placeholder="Name of your company/orginization" required>
+            </div>
+
+            <div class="field-set">
                 <span class="d-label">Job Title*</span>
                 <input type="text" name="Jobtitle" id="jobtitle" class="form-control" placeholder="Your Job Title" required>
             </div>
