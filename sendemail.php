@@ -55,15 +55,15 @@ if (isset($_POST['submit'])) {
     }
 
     if (!empty($missingFields)) {
-      $alert = '<div class="alert-error" style="margin-top: 2.5%;">
+      $alert = '<div class="alert-error" style="margin-top: 2%;">
                   <span>Please fill in the following fields: ' . implode(', ', $missingFields) . '.</span>
                 </div>';
     } elseif (in_array($emailDomain, $forbiddenDomains)) {
-        $alert = '<div class="alert-error" style="margin-top: 2.5%;">
+        $alert = '<div class="alert-error" style="margin-top: 2%;">
                     <span>Please use a business email address. Gmail, Yahoo, iCloud, and Outlook emails are not accepted.</span>
                   </div>';
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $alert = '<div class="alert-error" style="margin-top: 2.5%;">
+        $alert = '<div class="alert-error" style="margin-top: 2%;">
                     <span>Invalid email address.</span>
                   </div>';
     } else {
@@ -92,17 +92,17 @@ if (isset($_POST['submit'])) {
                 Company Name: $companyname <br>
                 Job Title: $jobtitle <br>
                 Website: $website <br>
-                Business Area: $businessArea <br>
+                Business Area: $businessarea <br>
                 Services: $serviceslist <br>
                 Message: $message</h3>
             ";
 
             $mail->send();
-            $alert = '<div class="alert-success" style="margin-top: 2.5%;">
+            $alert = '<div class="alert-success" style="margin-top: 2%;">
                         <span>Message Sent! Thank you for contacting us. We will contact you as soon as possible.</span>
                       </div>';
         } catch (Exception $e) {
-            $alert = '<div class="alert-error" style="margin-top: 2.5%;">
+            $alert = '<div class="alert-error" style="margin-top: 2%;">
                         <span>'.$e->getMessage().'</span>
                       </div>';
         }
