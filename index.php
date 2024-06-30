@@ -845,14 +845,14 @@
                 <div class="container position-relative z1000">
                     <div class="row">
 
-                    <div class="col-lg-12 mb-5">
+                    <div class="col-lg-12 mb-5" id="contact_form">
                             <h2 class="wow fadeInUp mb20 text-center" data-wow-delay=".2s">Cloud Services Enquiry Form</h2>
                     </div>
 
                         <div class="col-lg-10 offset-lg-1">
 
                           
-  <form name="contactForm" id="contact_form" class="position-relative z1000" method="POST" action="">
+  <form name="contactForm" class="position-relative z1000" method="POST" action="">
     <div class="row gx-4">
         <div class="col-lg-6 mb10">
             <div class="field-set">
