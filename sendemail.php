@@ -57,7 +57,7 @@ if (isset($_POST['submit'])) {
 
 
     if (!empty($missingFields)) {
-      $alert = '<div class="alert-error">
+      $alert = '<div class="alert-error" style="margin-top: 5%;">
                   <span>Please fill in the following fields: ' . implode(', ', $missingFields) . '.</span>
                 </div>';
     } elseif (in_array($emailDomain, $forbiddenDomains)) {
