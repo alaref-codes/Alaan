@@ -185,7 +185,7 @@
                                     </li>
                                     <li><a class="menu-item" href="#">Blog</a></li>
                                     <li><a class="menu-item" href="#about">About Us</a></li>
-                                    <li><a class="menu-item" href="#contact_form">Contact</a>
+                                    <li><a class="menu-item" href="#contact">Contact</a>
                                        
                                     </li>
                                     
