@@ -13,10 +13,10 @@ if (isset($_POST['submit'])) {
   $name = trim($_POST['Name']);
   $email = trim($_POST['Email']);
   $phone = trim($_POST['Phone']);
-  $companyName = trim($_POST['CompanyName']);
-  $jobTitle = trim($_POST['Jobtitle']);
+  $companyname = trim($_POST['CompanyName']);
+  $jobtitle = trim($_POST['Jobtitle']);
   $website = trim($_POST['Website']);
-  $businessArea = trim($_POST['BusinessArea']);
+  $businessarea = trim($_POST['BusinessArea']);
   $services = isset($_POST['Services']) ? $_POST['Services'] : [];
   $message = trim($_POST['Message']);
     
@@ -52,17 +52,17 @@ if (isset($_POST['submit'])) {
             $mail->CharSet = 'UTF-8'; // Set character set to UTF-8
             $mail->Subject = 'Alaan website (Contact form)';
 
-            $servicesList = implode(", ", $services);
+            $serviceslist = implode(", ", $services);
 
             $mail->Body = "
                 <h3>Name: $name <br>
                 Email: $email <br>
                 Phone Number: $phone <br>
-                Company Name: $companyName <br>
-                Job Title: $jobTitle <br>
+                Company Name: $companyname <br>
+                Job Title: $jobtitle <br>
                 Website: $website <br>
                 Business Area: $businessArea <br>
-                Services: $servicesList <br>
+                Services: $serviceslist <br>
                 Message: $message</h3>
             ";
 

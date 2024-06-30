@@ -874,7 +874,7 @@
 
             <div class="field-set">
                 <span class="d-label">Company/Orginization Name*</span>
-                <input type="text" name="Phone" id="phone" class="form-control" placeholder="Name of your company/orginization" required>
+                <input type="text" name="CompanyName" id="companyname" class="form-control" placeholder="Name of your company/orginization" required>
             </div>
 
             <div class="field-set">
@@ -884,13 +884,13 @@
 
             <div class="field-set">
                 <span class="d-label">Business Website (optional)</span>
-                <input type="text" name="Phone" id="phone" class="form-control" placeholder="URL of your company/orginization website">
+                <input type="text" name="Website" id="website" class="form-control" placeholder="URL of your company/orginization website">
             </div>
 
             <div class="field-set mb20">
                 <span>Let us know about your business area*</span>
                 <div class="select-wrap">
-                <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224; border-radius: 5px; margin:5px;">
+                <select name="BusinessArea" id="businessarea" class="form-control select-services-dropdown" required style="background: #101224; border-radius: 5px; margin:5px;">
                     <option value="" disabled selected>Select The Type Of Your Business</option>
                     <option value="Enterprise">Enterprise</option>
                     <option value="Fintech Corporation">Fintech Corporation</option>
