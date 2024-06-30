@@ -916,17 +916,15 @@
         <div class="col-lg-6">
             <div class="field-set mb20">
                 <span>Select the Services you are looking for*</span>
-                <div class="select-wrap">
-                <select name="Services[]" id="services" class="form-control select-services-dropdown" multiple required>
-    <option value="" disabled>Select Your Preferred Services</option>
-    <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
-    <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
-    <option value="Alaan S3 Storage as a Service">Alaan S3 Storage as a Service</option>
-    <option value="Alaan Migration Service">Alaan Migration Service</option>
-    <option value="Alaan Multi-tenant backup and restore as a service">Alaan Multi-tenant backup and restore as a service</option>
-    <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
-    <option value="Rack rental and Colocation">Rack rental and Colocation</option>
-</select>
+                <div class="select-wrap" style="background: #101224; border-radius: 5px; padding: 10px; margin: 5px;">
+                    <label><input type="checkbox" name="Services[]" value="Alaan Infrastructure as a Service"> Alaan Infrastructure as a Service</label><br>
+                    <label><input type="checkbox" name="Services[]" value="Alaan Platform as a Service"> Alaan Platform as a Service</label><br>
+                    <label><input type="checkbox" name="Services[]" value="Alaan S3 Storage as a Service"> Alaan S3 Storage as a Service</label><br>
+                    <label><input type="checkbox" name="Services[]" value="Alaan Migration Service"> Alaan Migration Service</label><br>
+                    <label><input type="checkbox" name="Services[]" value="Alaan Multi-tenant backup and restore as a service"> Alaan Multi-tenant backup and restore as a service</label><br>
+                    <label><input type="checkbox" name="Services[]" value="Cloud and Datacenter Consultancy"> Cloud and Datacenter Consultancy</label><br>
+                    <label><input type="checkbox" name="Services[]" value="Rack rental and Colocation"> Rack rental and Colocation</label>
+                </div>
 
                  </div>
             </div>

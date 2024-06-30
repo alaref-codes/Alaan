@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
   $jobTitle = trim($_POST['Jobtitle']);
   $website = trim($_POST['Website']);
   $businessArea = trim($_POST['BusinessArea']);
-  $services = $_POST['Services'];
+  $services = isset($_POST['Services']) ? $_POST['Services'] : [];
   $message = trim($_POST['Message']);
     
     $forbiddenDomains = ['gmail.com', 'yahoo.com', 'outlook.com', 'icloud.com'];
