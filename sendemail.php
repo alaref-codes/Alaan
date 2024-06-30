@@ -23,10 +23,43 @@ if (isset($_POST['submit'])) {
     $forbiddenDomains = ['gmail.com', 'yahoo.com', 'outlook.com', 'icloud.com'];
     $emailDomain = substr(strrchr($email, "@"), 1);
 
-    if (empty($name) || empty($email) || empty($phone) || empty($companyname) || empty($jobtitle) || empty($businessarea) || empty($services) || empty($message)) {
-        $alert = '<div class="alert-error">
-                    <span>Please fill in all required fields.</span>
-                  </div>';
+
+    $missingFields = [];
+
+    if (empty($name)) {
+        $missingFields[] = 'Your Name';
+    }
+    if (empty($email)) {
+        $missingFields[] = 'your Buisness Email';
+    }
+    if (empty($phone)) {
+        $missingFields[] = 'your Phone';
+    }
+    if (empty($companyname)) {
+        $missingFields[] = 'Company/Organization Name';
+    }
+    if (empty($jobtitle)) {
+        $missingFields[] = 'your Job Title';
+    }
+    if (empty($website)) {
+      $missingFields[] = 'your Job Title';
+  }
+    if (empty($businessarea)) {
+        $missingFields[] = 'your Business Area';
+    }
+    if (empty($services)) {
+        $missingFields[] = 'The Services you are looking for';
+    }
+    if (empty($message)) {
+        $missingFields[] = 'your Message';
+    }
+
+
+
+    if (!empty($missingFields)) {
+      $alert = '<div class="alert-error">
+                  <span>Please fill in the following fields: ' . implode(', ', $missingFields) . '.</span>
+                </div>';
     } elseif (in_array($emailDomain, $forbiddenDomains)) {
         $alert = '<div class="alert-error">
                     <span>Please use a business email address. Gmail, Yahoo, iCloud, and Outlook emails are not accepted.</span>
