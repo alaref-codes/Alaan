@@ -867,7 +867,15 @@
 
             <div class="field-set">
                 <span class="d-label">Phone*</span>
-                <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone Number" required>
+                <div class="d-flex">
+                    <select name="CountryCode" id="country_code" class="form-control" required>
+                        <!-- Add country options here -->
+                        <option value="1">🇺🇸 +1 (United States)</option>
+                        <option value="44">🇬🇧 +44 (United Kingdom)</option>
+                        <!-- Add more countries as needed -->
+                    </select>
+                    <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone Number" required>
+                </div>
             </div>
 
             <div class="field-set">
@@ -915,16 +923,17 @@
             <div class="field-set mb20">
                 <span>Select the Services you are looking for*</span>
                 <div class="select-wrap">
-                <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224; border-radius: 5px; margin:5px;">
-                    <option value="" disabled selected>Select Your Preffered Services</option>
-                    <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
-                    <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
-                    <option value="Alaan S3 Storage as a Service">Alaan S3 Storage as a Service</option>
-                    <option value="Alaan Migration Service">Alaan Migration Service</option>
-                    <option value="Alaan Multi-tenant backup and restore as a service">Alaan Multi-tenant backup and restore as a service</option>
-                    <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
-                    <option value="Rack rental and Colocation">Rack rental and Colocation</option>
-                </select>
+                <select name="Services[]" id="services" class="form-control custom-dropdown" multiple required>
+    <option value="" disabled>Select Your Preferred Services</option>
+    <option value="Alaan Infrastructure as a Service">Alaan Infrastructure as a Service</option>
+    <option value="Alaan Platform as a Service">Alaan Platform as a Service</option>
+    <option value="Alaan S3 Storage as a Service">Alaan S3 Storage as a Service</option>
+    <option value="Alaan Migration Service">Alaan Migration Service</option>
+    <option value="Alaan Multi-tenant backup and restore as a service">Alaan Multi-tenant backup and restore as a service</option>
+    <option value="Cloud and Datacenter Consultancy">Cloud and Datacenter Consultancy</option>
+    <option value="Rack rental and Colocation">Rack rental and Colocation</option>
+</select>
+
                  </div>
             </div>
 
@@ -958,6 +967,20 @@ document.getElementById('enquiry_form').addEventListener('submit', function(even
         alert('Please use a business email address. Gmail, Yahoo, icloud, and Outlook emails are not accepted.');
     }
 });
+
+document.getElementById('country_code').addEventListener('change', function() {
+            var selectedCountryCode = this.value;
+            var phoneInput = document.getElementById('phone');
+            // Change placeholder based on selected country code
+            if (selectedCountryCode === '1') {
+                phoneInput.placeholder = '123-456-7890'; // Example for US
+            } else if (selectedCountryCode === '44') {
+                phoneInput.placeholder = '01234 567890'; // Example for UK
+            }
+            // Add more country codes and placeholders as needed
+        });
+
+
 </script>
                             
                <!--           
