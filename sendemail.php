@@ -92,8 +92,8 @@ if (isset($_POST['submit'])) {
                 Company Name: $companyname <br>
                 Job Title: $jobtitle <br>
                 Website: $website <br>
-                Business Area: $businessarea <br>
-                Services: $serviceslist <br>
+                Business Area: $businessarea <br><br>
+                Services: $serviceslist <br><br>
                 Message: $message</h3>
             ";
 
