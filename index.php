@@ -865,11 +865,21 @@
                 <span class="d-label">Phone*</span>
                 <input type="text" name="Phone" id="phone" class="form-control" placeholder="Your Phone Number" required>
             </div>
+
+            <div class="field-set">
+                <span class="d-label">Job Title*</span>
+                <input type="text" name="Jobtitle" id="jobtitle" class="form-control" placeholder="Your Job Title" required>
+            </div>
+
+            <div class="field-set">
+                <span class="d-label">Business Website (optional)</span>
+                <input type="text" name="Phone" id="phone" class="form-control" placeholder="URL of your company/orginization website">
+            </div>
         </div>
         
         <div class="col-lg-6">
             <div class="field-set mb20">
-                <span>Choose your preferred service*</span>
+                <span>Select the Services you are looking for*</span>
                 <div class="select-wrap">
                 <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224; border-radius: 5px; margin:5px;">
                     <option value="" disabled selected>Select a Service</option>
