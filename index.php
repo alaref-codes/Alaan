@@ -884,6 +884,31 @@
                 <span class="d-label">Business Website (optional)</span>
                 <input type="text" name="Phone" id="phone" class="form-control" placeholder="URL of your company/orginization website">
             </div>
+
+            <div class="field-set mb20">
+                <span>Let us know about your business area*</span>
+                <div class="select-wrap">
+                <select name="Service" id="service" class="form-control custom-dropdow" required style="background: #101224; border-radius: 5px; margin:5px;">
+                    <option value="" disabled selected>Select The Type Of Your Business</option>
+                    <option value="Enterprise">Enterprise</option>
+                    <option value="Fintech Corporation">Fintech Corporation</option>
+                    <option value="Internet Service Provider">Internet Service Provider</option>
+                    <option value="Banking">Banking</option>
+                    <option value="Government Office">Government Office</option>
+                    <option value="Ministry">Ministry</option>
+                    <option value="IT & Telecom">IT & Telecom</option>
+                    <option value="Software Development">Software Development</option>
+                    <option value="Hardware & Networking">Hardware & Networking</option>
+                    <option value="Health & Pharmacy">Health & Pharmacy</option>
+                    <option value="Travel & Logistics">Travel & Logistics</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Other">Other</option>
+
+                </select>
+                 </div>
+            </div>
+
+
         </div>
         
         <div class="col-lg-6">
